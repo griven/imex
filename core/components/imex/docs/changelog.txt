@@ -1,0 +1,21 @@
+Changelog for ImEx
+
+ImEx 0.0.1-rc4
+====================================
+- Added import progress console output
+- Fixed UI behavior
+- Minor fixes
+
+ImEx 0.0.1-rc3
+====================================
+- Fixed alias creation
+- Fixed batch import
+- Fixed CSV export now is compatible with MS Excel
+
+ImEx 0.0.1-rc2
+====================================
+- Added English translation
+
+ImEx 0.0.1-rc1
+====================================
+- Initial release
