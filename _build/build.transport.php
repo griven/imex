@@ -20,6 +20,7 @@ $sources = array(
     'docs' => $root.'core/components/'.PKG_NAME_LOWER.'/docs/',
     'source_assets' => $root.'assets/components/'.PKG_NAME_LOWER,
     'source_core' => $root.'core/components/'.PKG_NAME_LOWER,
+    'user_files' => $root.'userfiles/'.PKG_NAME_LOWER,
 );
 unset($root);
 

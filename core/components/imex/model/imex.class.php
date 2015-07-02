@@ -51,9 +51,9 @@ class ImEx {
 		'imp_update_create'=>true,
 		'imp_create_notification'=>false,
       //
-		'files_import_dir'=>MODX_ASSETS_PATH.'components/imex/files/import/',
-		'files_export_dir'=>MODX_ASSETS_PATH.'components/imex/files/export/',
-        'files_export_dir_url'=>MODX_ASSETS_URL.'components/imex/files/export/',
+		'files_import_dir'=>MODX_BASE_PATH.'userfiles/imex/import/',
+		'files_export_dir'=>MODX_BASE_PATH.'userfiles/imex/export/',
+        'files_export_dir_url'=>MODX_BASE_URL.'userfiles/imex/export/',
 		'files_config_dir'=>MODX_ASSETS_PATH.'components/imex/configs/',
       
     );

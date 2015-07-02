@@ -19,4 +19,8 @@ $vehicle->resolve('file',array(
     'source' => $sources['source_core'],
     'target' => "return MODX_CORE_PATH . 'components/';",
 ));
+$vehicle->resolve('file',array(
+    'source' => $sources['user_files'],
+    'target' => "return MODX_BASE_PATH . 'userfiles/';",
+));
 return $vehicle;
