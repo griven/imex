@@ -410,9 +410,9 @@ Ext.extend(imex.panel.Home, MODx.Panel, {
 	uploadFiles: function(btn, e){
 		if (!this.uploader) {
 			this.uploader = new Ext.ux.UploadDialog.Dialog({
-				url: MODx.config.connectors_url + 'browser/file.php',
+				url: MODx.config.connectors_url,
 				base_params: {
-					action: 'upload',
+					action: 'browser/file/upload',
 					path: imex.config.filesImportPath,
 					wctx: MODx.ctx || '',
 					source: ''

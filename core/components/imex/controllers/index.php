@@ -9,7 +9,7 @@ $imex = new ImEx($modx);
 
 $imex->config['assetsUrl'] = MODX_ASSETS_URL.'components/imex/';
 $imex->config['connectorUrl'] = MODX_ASSETS_URL.'components/imex/connector.php';
-$imex->config['filesImportPath'] = MODX_ASSETS_URL.'components/imex/files/import/';
+$imex->config['filesImportPath'] = 'imex/import/';
 
 $modx->addPackage('imex', MODX_CORE_PATH.'components/imex/model/');
 $modx->lexicon->load('imex:default');
